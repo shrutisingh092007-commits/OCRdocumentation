@@ -1,0 +1,132 @@
+Text Recognition using OCR
+
+Decode Lab Internship – Artificial Intelligence Project 4
+
+Intern Name: Shruti
+Internship: Decode Lab Internship
+Project: Project 4 – Image or Text Recognition (Basic)
+
+---
+
+Project Overview
+
+This project implements a basic Optical Character Recognition (OCR) system using Python.
+
+The system takes a sample image containing text, preprocesses the image using OpenCV, and extracts readable text using the Tesseract OCR engine through the "pytesseract" library.
+
+---
+
+Objective
+
+The objectives of this project are:
+
+- Load a sample image.
+- Convert the image into grayscale.
+- Reduce image noise using Gaussian Blur.
+- Improve text/background separation using thresholding.
+- Extract text using OCR.
+- Display the recognized text.
+- Save the extracted text into an output file.
+
+---
+
+Technologies Used
+
+- Python 3.x
+- OpenCV
+- pytesseract
+- Tesseract OCR
+
+---
+
+Project Structure
+
+Project-4-OCR/
+│
+├── main.py
+├── sample_text.jpg
+├── processed_image.png
+├── output.txt
+├── requirements.txt
+└── README.md
+
+---
+
+Installation
+
+Install the required Python libraries:
+
+pip install opencv-python pytesseract
+
+Tesseract OCR must also be installed on the system.
+
+---
+
+How to Run
+
+1. Place a text image in the project folder.
+2. Rename it to:
+
+sample_text.jpg
+
+3. Run the Python program:
+
+python main.py
+
+4. The recognized text will be displayed in the terminal.
+5. The extracted text will also be saved in:
+
+output.txt
+
+The processed image will be saved as:
+
+processed_image.png
+
+---
+
+Working Process
+
+Input Image
+     ↓
+Grayscale Conversion
+     ↓
+Gaussian Blur
+     ↓
+Thresholding
+     ↓
+Tesseract OCR
+     ↓
+Recognized Text
+     ↓
+output.txt
+
+---
+
+Output
+
+The program displays the text recognized from the input image and saves it into "output.txt".
+
+---
+
+Validation
+
+The project can be validated using the following points:
+
+- Successful integration of the OCR library.
+- Correct image preprocessing.
+- Clear extracted text.
+- Visual checking of the processed image.
+- Comparison of OCR output with the original image.
+
+The DecodeLabs Project 4 material specifies an 80% minimum confidence standard for final output validation.
+
+---
+
+Conclusion
+
+This project demonstrates how Artificial Intelligence libraries can be integrated into a Python application to perform basic text recognition.
+
+It provides a simple machine-perception pipeline that converts text from an image into machine-readable information.
+
+Developed by: Shruti
+Internship: Decode Lab Internship
